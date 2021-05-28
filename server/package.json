@@ -1,0 +1,19 @@
+{
+  "name": "twitch-vod-downloader--server",
+  "version": "1.0.0",
+  "description": "The backend server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "m3u8stream": "^0.8.3",
+    "nodemon": "^2.0.7",
+    "shortid": "^2.2.16",
+    "twitch-m3u8": "^1.1.4"
+  }
+}
